@@ -1,0 +1,70 @@
+.login {
+    width: 70%;
+    height: 760px;
+    background-color: white;
+    float: right;
+}
+
+/* 边框模块 */
+.side {
+    width: 30%;
+    height: 760px;
+    background-color: #F4F4F4;
+    float: left;
+}
+
+.clear_float {
+    clear: both;
+}
+
+.login-main {
+    width: 80%;
+    margin: 250px 50px 0px;
+}
+
+.login a button {
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 20px 100px 0;
+}
+
+.login ul li {
+    margin: 20px 100px 0;
+}
+
+.login ul li .content {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login ul li .login-btn {
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.login ul li label {
+    font-size: 14px;
+    color: #333;
+    margin: 0 5px;
+}
+
+.login ul li label:first-of-type {
+    margin-left: 20px;
+}
+
+.login ul li input[name="status"] {
+    margin-right: 17px;
+}
+
+.login ul li #btn-login {
+    background-color: #3A8FE6;
+    color: white;
+}

@@ -1,0 +1,192 @@
+.main {
+    height: 700px;
+}
+
+.main .main_left {
+    width: 480px;
+    height: 700px;
+    background-color: white;
+    float: left;
+}
+
+.main .main_left .about {
+    margin: 50px 40px 30px;
+}
+
+.main .main_left .about>p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .main_left .ieee {
+    width: 360px;
+    height: 90px;
+    margin: 25px 40px 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.main .main_left .ieee #cvf img {
+    width: 35%;
+    height: 90%;
+}
+
+.main .main_left .ieee #ieee img {
+    width: 55%;
+    height: 70%;
+}
+
+.main .main_left .social {
+    width: 400px;
+    height: 50px;
+    margin: 0 40px;
+}
+
+
+.main .main_left .social a img {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#facebook {
+    margin-left: 130px;
+
+}
+
+.main .main_right {
+    width: 1300px;
+    height: 700px;
+    background-color: black;
+    float: left;
+}
+
+.main .main_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.must_know {
+    height: 1000px;
+}
+
+.must_know .must_know_left {
+    width: 860px;
+    height: 1000px;
+    background-color: #333;
+    float: left;
+}
+
+.must_know .must_know_left .location {
+    width: 700px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.must_know .must_know_left .location p {
+    color: #f0ebeb;
+    font-size: 18px;
+}
+
+.must_know .must_know_left .contact {
+    width: 700px;
+    height: 180px;
+    margin-left: 40px;
+    color: #f0ebeb;
+}
+
+.must_know .must_know_left .contact a {
+    color: #ff620a;
+}
+
+.must_know .must_know_left .contact a:hover {
+    color: red;
+}
+
+.must_know .must_know_left .contact p {
+    color: #f0ebeb;
+    font-weight: lighter;
+}
+
+.must_know .must_know_right {
+    width: 860px;
+    height: 1000px;
+    background-color: #FFF;
+    float: left;
+}
+
+.must_know .must_know_right .news_and_updates {
+    width: 750px;
+    height: 900px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.must_know .must_know_right .news_and_updates ul li {
+    color: #894E4E;
+    font-size: 18px;
+}
+
+.must_know .must_know_right .news_and_updates ul li a {
+    color: #FF620A;
+}
+
+.must_know .must_know_right .news_and_updates ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 倒计时模块样式 */
+.begin {
+    height: 140px;
+    background-color: #F4F4F4;
+    padding-top: 10px;
+}
+
+.begin .begin_one {
+    width: 270px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.begin .begin_two {
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.begin .begin_two ul.one {
+    width: 260px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.begin .begin_two ul.one li {
+    float: left;
+    width: 44px;
+    height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.begin .begin_two ul.two {
+    width: 260px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.begin .begin_two ul.two li {
+    float: left;
+    width: 44px;
+    height: 28px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 13.5px;
+    font-weight: 250;
+}
